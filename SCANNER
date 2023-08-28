@@ -1,0 +1,35 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class Main {
+  public static void main (String[]args) {
+  
+  
+  Scanner sc = new Scanner (System.in);
+  System.out.println("enter your full name :");
+  String fname = sc.nextLine();
+  
+   System.out.println("enter your id no. : ");
+  int id = sc.nextInt();
+  
+    System.out.println("enter your mobile ");
+  Long mobile = sc.nextLong();
+    
+     System.out.println("enter your Oops marks");
+  int Marks = sc.nextInt();
+      
+       System.out.println("enter your div");
+  int div = sc.nextInt();
+   
+    System.out.println("enter your marital status");
+  boolean Mstatus = sc.nextBoolean();
+   
+     System.out.println("enter your bank balance");
+  Double Bbalance = sc.nextDouble();
+  
+  
+  
+    System.out.println(" Your name  is  "+fname +"  "+id +""+mobile +"  "+Marks+"  "+div + "  "+ Mstatus+" " +" "+ Bbalance );
+
+  
+}}
